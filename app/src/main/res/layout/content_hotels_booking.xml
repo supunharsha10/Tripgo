@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".HotelsBooking"
+    android:background="@drawable/trip2"
+    tools:showIn="@layout/activity_hotels_booking">
+
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <ImageButton
+            android:id="@+id/car"
+            android:layout_width="281dp"
+            android:layout_height="103dp"
+            android:contentDescription="@string/app_name"
+            android:scaleType="fitCenter"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/cinnamon1"
+            android:background="@drawable/centre_button"/>
+
+        <ImageButton
+            android:id="@+id/bus"
+            android:layout_width="290dp"
+            android:layout_height="106dp"
+            android:layout_marginTop="12dp"
+            android:contentDescription="@string/app_name"
+            android:scaleType="centerInside"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.496"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/van"
+            app:srcCompat="@drawable/shangrilla"
+            android:background="@drawable/centre_button"/>
+
+        <ImageButton
+            android:id="@+id/van"
+            android:layout_width="288dp"
+            android:layout_height="110dp"
+            android:layout_marginTop="5dp"
+
+            android:contentDescription="@string/app_name"
+            android:scaleType="centerInside"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/car"
+            app:srcCompat="@drawable/taj"
+            android:background="@drawable/centre_button"/>
+
+        <ImageButton
+            android:id="@+id/bike"
+            android:layout_width="289dp"
+            android:layout_height="105dp"
+            android:layout_marginTop="12dp"
+
+            android:background="@drawable/centre_button"
+            android:contentDescription="@string/app_name"
+            android:scaleType="centerInside"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.491"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/bus"
+            app:srcCompat="@drawable/amaya" />
+
+        <ImageButton
+            android:id="@+id/threewheel"
+            android:layout_width="286dp"
+            android:layout_height="130dp"
+
+            android:layout_marginTop="10dp"
+            android:background="@drawable/centre_button"
+            android:contentDescription="@string/app_name"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.52"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/bike"
+            app:layout_constraintVertical_bias="1.0"
+            app:srcCompat="@drawable/galle" />
+
+    </android.support.constraint.ConstraintLayout>
+</android.support.v4.widget.NestedScrollView>

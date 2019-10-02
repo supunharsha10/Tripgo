@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name"></string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="Hotel_Booking">Hotel Booking</string>
+    <string name="Transport">Transport</string>
+    <string name="food">Food Ordering</string>
+    <string name="visit">Places to Visit</string>
+    <string name="title_activity_hotel_booking">HotelBooking</string>
+    <string name="textview">Hotel Name</string>
+    <string name="hotel">Hotel Name</string>
+    <string name="title_activity_hotel_form">Booking Details</string>
+    <string name="title_activity_hotels_booking">Hotel Booking</string>
+    <string name="in">Check in Date</string>
+    <string name="out">Check out Date</string>
+    <string name="send">Add Booking</string>
+    <string name="email">Email</string>
+    <string name="name">Name</string>
+    <string name="mobno">Mobile No.</string>
+    <string name="reg_no">How Many Rooms</string>
+    <string name="type">Room Type</string>
+    <string name="nic">NIC</string>
+    <string name="tripgo">Trip GO</string>
+    <string name="vBooking">View Your Hotel Bookings</string>
+    <string name="vTransport">View Your Transport Bookings</string>
+    <string name="vFood">View Your Foods</string>
+    <string name="vPlaces">View Added Places</string>
+    <string name="view">View Booking</string>
+    <string name="title_activity_userdetails">userdetails</string>
+    <string name="title_activity_hotel_details">HotelDetails</string>
+    <string name="update">Update</string>
+    <string name="delete">Delete</string>
+    <string name="Phoenix">Phoenix™</string>
+    <string name="title_activity_transport_details">TransportDetails</string>
+    <string name="title_activity_transport_form">TransportForm</string>
+    <string name="title_activity_transport_booking">TransportBooking</string>
+    <string name="transporttype">Type</string>
+    <string name="passengers">How Many Passengers</string>
+    <string name="pickupdatelabel">Pick Up Date</string>
+    <string name="returndatelabel">Return Date</string>
+
+</resources>

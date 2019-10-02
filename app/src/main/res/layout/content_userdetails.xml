@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nestedScrollView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/trip2"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".userdetails"
+    tools:showIn="@layout/activity_userdetails">
+
+    <Button
+        android:id="@+id/viewplaces"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="100dp"
+        android:background="@drawable/centre_button"
+        android:text="@string/vPlaces"
+        android:textColor="@color/whiteTextColor"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/viewTransport"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/centre_button"
+        android:text="@string/vTransport"
+        android:textColor="@color/whiteTextColor"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/viewFood" />
+
+    <Button
+        android:id="@+id/viewBooking"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="35dp"
+
+        android:layout_marginTop="20dp"
+        android:background="@drawable/centre_button"
+        android:gravity="center"
+        android:text="@string/vBooking"
+        android:textColor="@color/whiteTextColor"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/viewTransport" />
+
+    <Button
+        android:id="@+id/viewFood"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/centre_button"
+        android:text="@string/visit"
+        android:textColor="@color/whiteTextColor"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/viewplaces" />
+
+</android.support.constraint.ConstraintLayout>

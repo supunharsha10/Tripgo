@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".HotelDetails"
+    tools:showIn="@layout/activity_hotel_details">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="320dp"
+            android:layout_height="577dp"
+            android:layout_gravity="center"
+            android:focusableInTouchMode="false"
+            android:orientation="vertical"
+            android:padding="10dp">
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/txtNIC1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/txtnic1"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                style="@style/modifiedEditText"
+                android:ems="10"
+                android:hint="@string/nic"
+                android:inputType="number"
+                android:textColor="@color/whiteTextColor"/>
+            </android.support.design.widget.TextInputLayout>
+            <Button
+                android:id="@+id/btnview"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:background="@drawable/centre_button"
+                android:text="@string/view"
+                android:textColor="@color/whiteTextColor" />
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/txtInputName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <EditText
+                    android:id="@+id/txtName"
+                    android:textSize="18dp"
+                    android:textStyle="bold"
+                    style="@style/modifiedEditText"
+                    android:hint="@string/name"
+                    android:singleLine="true"
+                    android:textColor="@color/whiteTextColor"/>
+
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/txtInputEmail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <EditText
+                    android:id="@+id/txtEmail"
+                    android:textSize="18dp"
+                    android:textStyle="bold"
+                    style="@style/modifiedEditText"
+                    android:ems="10"
+                    android:hint="@string/email"
+                    android:inputType="textEmailAddress"
+                    android:textColor="@color/whiteTextColor"/>
+
+            </android.support.design.widget.TextInputLayout>
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/txtNIC"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <EditText
+                    android:id="@+id/txtnic"
+                    android:textSize="18dp"
+                    android:textStyle="bold"
+                    style="@style/modifiedEditText"
+                    android:ems="10"
+                    android:hint="@string/nic"
+                    android:inputType="number"
+                    android:textColor="@color/whiteTextColor"/>
+
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/txtInputMob"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <EditText
+                    android:id="@+id/txtMob"
+                    android:textSize="18dp"
+                    android:textStyle="bold"
+                    style="@style/modifiedEditText"
+                    android:hint="@string/mobno"
+                    android:inputType="phone"
+                    android:textColor="@color/whiteTextColor"/>
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/txtInputReg"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <EditText
+                    android:id="@+id/txthow"
+                    android:textSize="18dp"
+                    android:textStyle="bold"
+                    style="@style/modifiedEditText"
+                    android:hint="@string/reg_no"
+                    android:textColor="@color/whiteTextColor"/>
+
+            </android.support.design.widget.TextInputLayout>
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/txtType"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <EditText
+                    android:id="@+id/txttype"
+                    android:textSize="18dp"
+                    android:textStyle="bold"
+                    style="@style/modifiedEditText"
+                    android:hint="@string/type"
+                    android:inputType="text"
+                    android:textColor="@color/whiteTextColor"/>
+
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/txtcheckin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <EditText
+                    android:id="@+id/txtin"
+                    android:textSize="18dp"
+                    android:textStyle="bold"
+                    style="@style/modifiedEditText"
+                    android:hint="@string/in"
+                    android:inputType="date"
+                    android:textColor="@color/whiteTextColor"/>
+
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/checkout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <EditText
+                    android:id="@+id/txtcheckout"
+                    android:textSize="18dp"
+                    android:textStyle="bold"
+                    style="@style/modifiedEditText"
+                    android:hint="@string/out"
+                    android:inputType="date"
+                    android:textColor="@color/whiteTextColor"/>
+
+            </android.support.design.widget.TextInputLayout>
+
+            <Button
+                android:id="@+id/btnupdate"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:background="@drawable/centre_button"
+                android:text="@string/update"
+                android:textColor="@color/whiteTextColor" />
+
+            <Button
+                android:id="@+id/btndelete"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:background="@drawable/centre_button"
+                android:text="@string/delete"
+                android:textColor="@color/whiteTextColor" />
+
+        </LinearLayout>
+    </ScrollView>
+</android.support.v4.widget.NestedScrollView>
